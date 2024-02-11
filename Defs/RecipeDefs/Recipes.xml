@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- VANILLA -->
+    <!--PLASTEEL-->
+    <RecipeDef>
+        <defName>Mawy_MakePlasteel</defName>
+        <label>Refine plasteel</label>
+        <description>Refine plasteel from steel and chemfuel.</description>
+        <jobString>Refining plasteel.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <workAmount>5000</workAmount>
+        <recipeUsers>
+            <li>ElectricSmelter</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Steel</li>
+                <li>Chemfuel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Plasteel>20</Plasteel>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>10</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+    </RecipeDef>
+    <RecipeDef>
+        <defName>antares_summon_steel</defName>
+        <label>Призвать сталь</label>
+        <description>Сесть и призвать сталь</description>
+        <jobString>Призывает сталь</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smelt</effectWorking>
+        <soundWorking>Recipe_Smelt</soundWorking>
+        <workAmount>100</workAmount>
+        <recipeUsers>
+            <li>ElectricSmelter</li>
+        </recipeUsers>
+        <ingredients>
+        </ingredients>
+        <fixedIngredientFilter>
+        </fixedIngredientFilter>
+        <products>
+            <Steel>75</Steel>
+        </products>
+        <researchPrerequisite>Smithing</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>10</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+    </RecipeDef>
+</Defs>

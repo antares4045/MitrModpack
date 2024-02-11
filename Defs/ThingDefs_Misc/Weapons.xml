@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>antares_GodPistol</defName>
+		<label>god-pistol</label>
+		<description>Пистолет дам. Объяснение не дам</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/PistolGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.5</uiIconScale>
+		<soundInteract>Interact_Autopistol</soundInteract>
+		<recipeMaker>
+			<researchPrerequisite>Gunsmithing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<weaponTags Inherit="False">
+			<li>NonLethal</li>
+		</weaponTags>
+		<statBases>
+			<WorkToMake>4400</WorkToMake>
+			<Mass>0</Mass>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>1</AccuracyShort>
+			<AccuracyMedium>1</AccuracyMedium>
+			<AccuracyLong>1</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>antares_Bullet_GodPistol</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>10000000</range>
+				<soundCast>antares_shot_god_pistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>100</muzzleFlashScale>
+                <burstShotCount>5</burstShotCount>
+			    <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>0</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>0</cooldownTime>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<usableWithShields>true</usableWithShields>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>antares_Bullet_GodPistol</defName>
+		<label>Зелёный сгусток</label>
+		<graphicData>
+			<texPath>Things/Projectile/GreenCapsule</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>antares_GreenCapsule</damageDef>
+            <explosionRadius>1</explosionRadius>
+			<damageAmountBase>1</damageAmountBase>
+			<speed>100</speed>
+		</projectile>
+	</ThingDef>
+</Defs>

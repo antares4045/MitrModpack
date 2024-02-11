@@ -27,7 +27,178 @@
 			<AccuracyMedium>1</AccuracyMedium>
 			<AccuracyLong>1</AccuracyLong>
 			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+            <JumpRange>100</JumpRange>
 		</statBases>
+        <capMods>
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Talking</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Eating</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Hearing</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Breathing</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<offset>999</offset>
+			</li>
+			<li>
+				<capacity>Metabolism</capacity>
+				<offset>999</offset>
+			</li>
+		</capMods>
+		<hediffGiversCannotGive>
+			<li>Carcinoma</li>
+			<li>HeartAttack</li>
+			<li>BadBack</li>
+			<li>Frail</li>
+			<li>Cataract</li>
+			<li>Dementia</li>
+			<li>Alzheimers</li>
+			<li>Asthma</li>
+			<li>HeartArteryBlockage</li>
+			<li>SensoryMechanites</li>
+			<li>WoundInfection</li>
+			<li>MissingBodyPart</li>
+			<li>Misc</li>
+			<li>Burn</li>
+			<li>ChemicalBurn</li>
+			<li>Crush</li>
+			<li>Crack</li>
+			<li>Cut</li>
+			<li>SurgicalCut</li>
+			<li>ExecutionCut</li>
+			<li>Scratch</li>
+			<li>Bite</li>
+			<li>Stab</li>
+			<li>Gunshot</li>
+			<li>Shredded</li>
+			<li>Bruise</li>
+			<li>Frostbite</li>
+			<li>Blindness</li>
+			<li>HearingLoss</li>
+			<li>TraumaSavant</li>
+			<li>ChemicalDamageModerate</li>
+			<li>ChemicalDamageSevere</li>
+			<li>Cirrhosis</li>
+			<li>ResurrectionPsychosis</li>
+			<li>Scaria</li>
+			<li>Sterilized</li>
+			<li>BloodLoss</li>
+			<li>DirtInEyes</li>
+			<li>SandInEyes</li>
+			<li>MudInEyes</li>
+			<li>GravelInEyes</li>
+			<li>WaterInEyes</li>
+			<li>Hypothermia</li>
+			<!-- Can't seem to block these, might need more definitions that they are 
+				<li>ParalyticAbasia</li>
+				<li>Bleeding</li>
+			-->
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Flu</li>
+			<li>Malaria</li>
+			<li>SleepingSickness</li>
+			<li>Plague</li>
+			<li>WoundInfection</li>
+			<li>LungRot</li>
+			<li>GutWorms</li>
+			<li>MuscleParasites</li>
+			<li>FibrousMechanites</li>
+			<li>BloodRot</li>
+			<li>InfantIllness</li>
+		</makeImmuneTo>
+		<statFactors>
+			<InjuryHealingFactor>999999</InjuryHealingFactor>
+			<ImmunityGainSpeed>999999</ImmunityGainSpeed>
+		</statFactors>
+        <equippedStatOffsets>
+          <MoveSpeed>999999</MoveSpeed>
+			<WorkSpeedGlobal>999999</WorkSpeedGlobal>
+			<GeneralLaborSpeed>999999</GeneralLaborSpeed>
+			<MeleeDodgeChance>999999</MeleeDodgeChance>
+			<AimingDelayFactor>-999999</AimingDelayFactor>
+			<ResearchSpeed>999999</ResearchSpeed>
+			<DoorOpenSpeed>999999</DoorOpenSpeed>
+			<TrapSpringChance>-1</TrapSpringChance>
+			<BiosculpterOccupantSpeed>999999</BiosculpterOccupantSpeed>
+			
+			<CarryingCapacity>999999</CarryingCapacity>			
+			<MeatAmount>999999</MeatAmount>
+			<MeleeDamageFactor>999999</MeleeDamageFactor>
+			
+			<IncomingDamageFactor>-1</IncomingDamageFactor>
+			<PainShockThreshold>999999</PainShockThreshold>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<ImmunityGainSpeed>999999</ImmunityGainSpeed>
+			<InjuryHealingFactor>999999</InjuryHealingFactor>
+			<LifespanFactor>999999</LifespanFactor>
+			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteResistance>
+			<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteEnvironmentResistance>
+			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteResistance>
+			<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteEnvironmentResistance>
+			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationResistance>
+			<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationEnvironmentResistance>
+			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinResistance>
+			<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinEnvironmentResistance>
+			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusResistance>
+			<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusEnvironmentResistance>
+			
+			<RestFallRateFactor>0</RestFallRateFactor>
+			<ComfyTemperatureMin>-999999</ComfyTemperatureMin>
+			<ComfyTemperatureMax>999999</ComfyTemperatureMax>
+			
+			<PsychicSensitivity>999999</PsychicSensitivity>
+			<MeditationFocusGain>999999</MeditationFocusGain>
+			<PsychicEntropyRecoveryRate>999999</PsychicEntropyRecoveryRate>
+			<PsychicEntropyGain>-999999</PsychicEntropyGain>
+			<VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsyfocusCostFactor>
+			<VPE_PsychicEntropyMinimum MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsychicEntropyMinimum>
+			
+			<SubcoreEncodingSpeed>999</SubcoreEncodingSpeed>
+			<MechBandwidth>99</MechBandwidth>
+			<MechControlGroups>99</MechControlGroups>
+			<WorkSpeedGlobalOffsetMech>999</WorkSpeedGlobalOffsetMech>
+			<MechRemoteRepairDistance>9</MechRemoteRepairDistance>
+			<MechFormingSpeed>999</MechFormingSpeed>
+			<MechRemoteShieldDistance>9</MechRemoteShieldDistance>
+			<MechRemoteShieldEnergy>999</MechRemoteShieldEnergy>
+			<MechRepairSpeed>999</MechRepairSpeed>
+			
+			<HemogenGainFactor>999999</HemogenGainFactor>
+
+            <PawnBeauty>999999</PawnBeauty>
+        </equippedStatOffsets>
+
 		<costList>
 			<Steel>30</Steel>
 			<ComponentIndustrial>1</ComponentIndustrial>
@@ -44,7 +215,88 @@
 				<muzzleFlashScale>100</muzzleFlashScale>
                 <burstShotCount>5</burstShotCount>
 			    <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <requireLineOfSight>false</requireLineOfSight>
 			</li>
+             <li>
+                <verbClass>Verb_Jump</verbClass>
+                <label>jump</label>
+                <commandIcon>Things/Casts/Jump</commandIcon>
+                <violent>false</violent>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>True</onlyManualCast>
+                <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+                <warmupTime>0.5</warmupTime>
+                <range>100</range>
+                <warmupEffecter>JumpWarmupEffect</warmupEffecter>
+                <flightEffecterDef>JumpFlightEffect</flightEffecterDef>
+                <requireLineOfSight>false</requireLineOfSight>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                    <canTargetPawns>false</canTargetPawns>
+                    <canTargetBuildings>false</canTargetBuildings>
+                </targetParams>
+            </li>
+            <!-- <li>
+                <label>heal shoot</label>
+				<verbClass>Verb_LaunchProjectile</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>antares_Heal_GodPistol</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>10000000</range>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>100</muzzleFlashScale>
+                <burstShotCount>5</burstShotCount>
+			    <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <requireLineOfSight>false</requireLineOfSight>
+			</li> -->
+
+            <li>
+                <label>launch heal</label>
+                <verbClass>Verb_LaunchProjectileStatic</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>True</onlyManualCast>
+                <commandIcon>Things/Casts/Heal</commandIcon>
+                <range>1000</range>
+                <forcedMissRadius>0</forcedMissRadius>
+                <warmupTime>1.5</warmupTime>
+                <noiseRadius>4</noiseRadius>
+                <soundCast>Shot_IncendiaryLauncher</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>14</muzzleFlashScale>
+                <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                <requireLineOfSight>false</requireLineOfSight>
+                <targetParams>
+                    <canTargetSelf>true</canTargetSelf>
+                    <canTargetLocations>false</canTargetLocations>
+                    <canTargetPawns>true</canTargetPawns>
+                </targetParams>
+                <defaultProjectile>antares_Heal_GodPistol</defaultProjectile>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li>
+            <!-- <li>
+                <label>heal shot</label>
+                <verbClass>Verb_LaunchProjectile</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <onlyManualCast>True</onlyManualCast>
+                <range>1000</range>
+                <forcedMissRadius>0</forcedMissRadius>
+                <warmupTime>1</warmupTime>
+                <noiseRadius>4</noiseRadius>
+                <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+                <soundCast>Shot_IncendiaryLauncher</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>14</muzzleFlashScale>
+                <drawHighlightWithLineOfSight>false</drawHighlightWithLineOfSight>
+                 <requireLineOfSight>false</requireLineOfSight>
+                <targetParams>
+                    <canTargetSelf>true</canTargetSelf>
+                    <canTargetLocations>false</canTargetLocations>
+                    <canTargetPawns>true</canTargetPawns>
+                </targetParams>
+                <defaultProjectile>antares_Heal_GodPistol</defaultProjectile>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+            </li> -->
 		</verbs>
 		<tools>
 			<li>
@@ -82,7 +334,25 @@
 			<damageDef>antares_GreenCapsule</damageDef>
             <explosionRadius>1</explosionRadius>
 			<damageAmountBase>1</damageAmountBase>
+            <armorPenetrationBase>1</armorPenetrationBase>
 			<speed>100</speed>
+            <stoppingPower>10</stoppingPower>
+		</projectile>
+	</ThingDef>
+    <ThingDef ParentName="BaseBullet">
+		<defName>antares_Heal_GodPistol</defName>
+		<label>оранжевый сгусток</label>
+		<graphicData>
+			<texPath>Things/Projectile/OrangeCapsule</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>antares_OrangeCapsule</damageDef>
+            <explosionRadius>1</explosionRadius>
+			<damageAmountBase>1</damageAmountBase>
+            <armorPenetrationBase>1</armorPenetrationBase>
+			<speed>100</speed>
+            <stoppingPower>10</stoppingPower>
 		</projectile>
 	</ThingDef>
 </Defs>

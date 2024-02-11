@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<defName>MainSettings_antares</defName>
+		<modId>antares.commonTrashCan.xml</modId>
+		<label>antares - Tweaks and Patches</label>
+		<settings>
+            <li Class="XmlExtensions.Setting.Gap"/>
+            <li Class="XmlExtensions.Setting.Checkbox">
+                <key>Extra_QoLPatches_BetterLegendary_WVC_a</key>
+                <label>Better Legendary</label>
+                <defaultValue>false</defaultValue>
+                <tooltip>Increases bonus from legendary quality and debuff from poor quality. Affects mass, flammability, equip delay, beauty, and deterioration rate.</tooltip>
+                <tKey>HGS_Extra_QoLPatches_BetterLegendary_Label_WVC_a</tKey>
+                <tKeyTip>HGS_Extra_QoLPatches_BetterLegendary_Desc_WVC_a</tKeyTip>
+            </li>
+        </settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

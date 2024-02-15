@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>MITR_mechanical_engine</defName>
+    <label>Механический двигатель</label>
+    <description></description>
+    <stackLimit>25</stackLimit>
+    <graphicData>
+      <texPath>Items/mechanical_engine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <techLevel>Industrial</techLevel>
+  </ThingDef>
+
+</Defs>

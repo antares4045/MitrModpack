@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+
+		<mods>
+			<li>Rimputers</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+            <operations>
+    
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RP_MechanicalCalculator"]/costStuffCount</xpath>
+                    <value>
+                        <!-- сталь -->
+                        <costStuffCount>10</costStuffCount>
+                    </value>
+                </li>
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RP_MechanicalCalculator"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <BrassGears>70</BrassGears>
+                            
+                        </costList>
+                    </value>
+                </li>
+                 <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RP_MechanicalCalculator"]/comps</xpath>
+                    <value>
+                        <comps>
+                            <li Class="CompProperties_Facility">
+                                <statOffsets>
+                                    <ResearchSpeedFactor>0.3</ResearchSpeedFactor>
+                                </statOffsets>
+                                <maxSimultaneous>1</maxSimultaneous>
+                            </li>
+                        </comps>
+                    </value>
+                </li>
+            </operations>
+        </match>
+	</Operation>
+</Patch>

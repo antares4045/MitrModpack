@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+
+		<mods>
+			<li>Clockwork And Steam</li>
+		</mods>
+		
+		<match Class="PatchOperationSequence">
+            <operations>
+                <!-- претаскиваем начало в другую теху -->
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="TableClockwork"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites> <li>MITR_gears</li> </researchPrerequisites>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AlloyFurnace"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites> <li>MITR_gears</li> </researchPrerequisites>
+                    </value>
+                </li>
+
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="CastBrass"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>MITR_gears</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="CastBronze"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>MITR_gears</researchPrerequisite>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/RecipeDef[defName="RivetLeather"]/researchPrerequisite</xpath>
+                    <value>
+                        <researchPrerequisite>MITR_gears</researchPrerequisite>
+                    </value>
+                </li>
+
+                <!-- увеличиваем стакуемость компонентов -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="BrassGears"]/stackLimit</xpath>
+                    <value>
+                        <stackLimit>600</stackLimit>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="SteelSpring"]/stackLimit</xpath>
+                    <value>
+                        <stackLimit>600</stackLimit>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ElectronicComponent"]/stackLimit</xpath>
+                    <value>
+                        <stackLimit>600</stackLimit>
+                    </value>
+                </li>
+
+
+           
+            </operations>
+        </match>
+	</Operation>
+</Patch>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<RecipeDef>
+		<defName>CutGears</defName>
+		<label>Cut gears</label>
+		<description>Cut a collection of gears from raw brass.</description>
+		<jobString>Cutting gears.</jobString>
+		<workAmount>2000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<researchPrerequisite>MITR_gears</researchPrerequisite>
+		<products>
+				<BrassGears>15</BrassGears>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+				<thingDefs>
+				<li>CaS_Brass</li>
+				</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+				<thingDefs>
+				<li>Steel</li>
+				</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>CraftSpring</defName>
+		<label>Craft spring</label>
+		<description>Bend and treat steel into a spring.</description>
+		<jobString>Crafting spring.</jobString>
+		<workAmount>6500</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<researchPrerequisite>MITR_gears</researchPrerequisite>
+		<products>
+				<SteelSpring>20</SteelSpring>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	</RecipeDef>
+	
+</Defs>
